@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_direct">Test AndFTP intents below:</string>
+    <string name="app_name">FBLogin</string>
+    <string name="key_fb">850850214958860</string>
+    <!--  -->
+    <string name="your_interest">Your Interest</string>
+    <string name="skip">Skip</string>
+    <string name="your_interest_q1">Q1 What is your favorite destination?</string>
+    <string name="your_interest_ans1">Goa is my favorite destination.</string>
+    <string name="your_interest_q2">Q2 Which country you would like the most?</string>
+    <string name="your_interest_ans2">USA is my favourite country.</string>
+    <string name="your_interest_submit">Submit</string>
+
+    <!-- Volley and other -->
+    <!-- Dialog Messages -->
+    <string name="please_wait">Please Wait</string>
+    <string name="encounter_server_error">Server Error Occurred.</string>
+    <string name="unable_to_connect_to_server">Unable to Connect to Server.</string>
+    <string name="no_response_from_server">No response from server. \nPlease try again later.</string>
+    <string name="please_connect_to_internet">No internet found. Please connect to internet.</string>
+    <string name="checklist_incomplete">Please complete checklist to proceed.</string>
+    <string name="some_error">Some error occurred. \nPlease try again later.</string>
+    <string name="enter_email_dialog">Please enter email address</string>
+    <string name="pref_device_reg_id">reg_id</string>
+    <string name="gps_disabled">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="loading">Loading...</string>
+
+    <!-- keys -->
+
+    <string name="shared_key_fb_email">shared_key_fb_email</string>
+    <string name="shared_key_fb_id">shared_key_fb_id</string>
+    <string name="shared_key_password">shared_key_password</string>
+    <string name="key_code">code</string>
+    <string name="key_msg">msg</string>
+    <string name="key_data">data</string>
+    <string name="base_url">http://54.149.222.28:8080/Troyage/ws/</string>
+    <string name="sign_up">signup/oauth</string>
+    <string name="login">login</string>
+    <string name="USER_FIRST_NAME">USER_FIRST_NAME</string>
+    <string name="USER_LAST_NAME">USER_LAST_NAME</string>
+    <string name="USER_EMAIL">USER_EMAIL</string>
+    <string name="USERNMAE">USERNAME</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="USER_AUTH_TOKEN">USER_AUTH_TOKEN</string>
+    <string name="USER_TYPE">USER_TYPE</string>
+    <string name="USER_TIMEZONE">USER_TIMEZONE</string>
+
+</resources>

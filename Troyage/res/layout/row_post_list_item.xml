@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_post_list_item_llParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/row_post_list_item_rlItemHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1EAEB" >
+
+        <ImageView
+            android:id="@+id/row_post_list_item_ivPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:id="@+id/row_post_list_item_llNameDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/row_post_list_item_ivPhoto"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/row_news_feed_list_item_tvPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sitanshu Joshi"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/row_news_feed_list_item_tvDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="26th January at 9:30 AM"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- comment -->
+
+    <TextView
+        android:id="@+id/row_news_feed_list_item_tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="5dp"
+        android:text="This is my post for my favourite city- Ahmedabad.This is my post for my favourite city- Ahmedabad."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <!-- Edited and Favourite -->
+
+    <RelativeLayout
+        android:id="@+id/row_news_feed_list_item_rlEditFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/row_news_feed_list_item_tvEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:gravity="center_vertical"
+            android:text="12"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/row_news_feed_list_item_tvFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@android:drawable/ic_delete"
+            android:gravity="center_vertical"
+            android:text="35"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
